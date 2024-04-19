@@ -11,17 +11,23 @@
 }
 
 :root{
- --cor1:#66A3D9;
- --cor2:#426A8C;
- --cor3:#f2d552;
- --cor4:#F2B05E;
- --cor5:#e5fff4;
+ --cor1:#5E6574;
+ --cor2:#D8D8DA;
+ --cor3:#212733;
+ --cor4:#5D585E;
+ --cor5:#25A18E;
 
  --fonttitulo:sunshine;
  --fonttexto:roboto
 }
 body{
+
     background-color: var(--cor5);
+    height:100vh;
+    background-image: url(imagens/sea-3652697_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header{
@@ -29,6 +35,9 @@ header{
     width: 100%;
     min-height: 120px;
     background-color:var(--cor2);
+    background-image: url(imagens/pexels-bella-white-201200-635279.jpg);
+    background-position: center right;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
 
 
 }
@@ -42,52 +51,103 @@ header > h1{
     color: white;
 }
 
+.container1{
+   display: flex;
+   flex-shrink: 1;
+   flex-grow: 1;
+   flex-direction:row-reverse;
+   flex-basis: auto;
+   margin-right: 20px;
+   margin-top: 30px;
+   border-radius: 4px;
+   padding: 20px;
+   background-color: #25A18E;
+   max-width:900px;
+   max-height: 800px;
+   float: right;
+   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.479);
+   
 
-
-.background{
-    position: relative;
-    max-width: 1100px;
-    max-height: 500px;
-    margin: auto;
-    background-color: #66A3D9;
+    
+    
+    
     
     
 }
+.jardim{
 
-div.paralax {
-    max-height:400px ;
-    max-width: 100%;
-    padding-bottom: 45.0%;
-    background-image: url(imagens/coconut-treenormal.png);
-    background-position: center;
-    background-size: contain;
-    margin: auto;
     
-    
-   }
-   .frase
-   {
-   padding-top:40px ;
-   }
-
-
-
-main{
-    
-    margin:  auto;
-    padding: 20px;
-    background-color: var(--cor1);
-    border-left: 2px solid #9b9b9b;
-    border-right: 2px solid #9b9b9b;
-    max-width: 1057px;
-}
-main h1{
-    text-align: center;
     max-width: 800px;
-    font-size: 2.5em;
+    max-height:450px;
+    margin-right: 20px;
+    border-radius: 3px;
+
+    
+    
+}
+.container2{
+  flex-basis: 40%;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-family: var(--fonttexto);
+
+}
+.container2 > h1{
     font-family: var(--fonttitulo);
+    margin: 15px;
+    padding: 10px;
 }
-main p {
+
+
+#lugares1main {
+    background-color: #25A18E;
+    margin-top:50%;
+    max-width: 900px;
+    max-height:800px ;
+    padding: 20px;
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 1;
     font-family: var(--fonttexto);
-    line-height: 1.5em;
+    border-radius: 4px;
 }
+.lugares{
+    margin: 15px;
+}
+.imagemlugares{
+    max-width:500px;
+    max-height:350px
+}
+
+#lugares2main {
+    background-color: #25A18E;
+    margin-top:5%;
+    max-width: 900px;
+    max-height:800px ;
+    padding: 20px;
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 1;
+    font-family: var(--fonttexto);
+    border-radius: 4px;
+    float: right;
+}
+#lugares3main {
+    background-color: #25A18E;
+    margin-top:30%;
+    max-width: 900px;
+    max-height:800px ;
+    padding: 20px;
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 1;
+    font-family: var(--fonttexto);
+    border-radius: 4px;
+
+
+    
+    
+    
+
+
+
