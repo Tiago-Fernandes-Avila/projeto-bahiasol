@@ -36,7 +36,7 @@ header{
     min-height: 120px;
     background-color:var(--cor2);
     background-image: url(imagens/pexels-bella-white-201200-635279.jpg);
-    background-position: center right;
+    background-position: center center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
 
 
@@ -48,7 +48,7 @@ header > h1{
     font-family: var(--fonttitulo);
     font-weight: normal;
     font-size: 3em;
-    color: white;
+    color: var(--cor3);
 }
 
 .container1{
@@ -145,7 +145,7 @@ header > h1{
     border-radius: 4px;
 
 
-    
+}
     
     
 
